@@ -1,0 +1,19 @@
+<web-app> 
+	<servlet>
+		<servlet-name>color</servlet-name>
+		<servlet-class>color</servletr-class>
+	
+	
+	
+	<init-param>  
+		<param-name>username</param-name>  
+		<param-value>user</param-value>  
+	</init-param> 
+	
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>color</servlet-name>
+		<url-pattern>/green</url-pattern>
+	</servlet-mapping>
+</web-app>		
