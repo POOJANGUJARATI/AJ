@@ -1,0 +1,18 @@
+<web-app>
+	<servlet>
+	<init-param>
+		<param-name>Username</param-name>
+		<param-value>client1</param-value>
+	</init-param>
+	<init-param>
+		<param-name>Password</param-name>
+		<param-value>client123</param-value>
+	</init-param>
+		<servlet-name>Product</servlet-name>
+		<servlet-class>Product</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Product</servlet-name>
+		<url-pattern>/Product</url-pattern>
+	</servlet-mapping>
+</web-app>
